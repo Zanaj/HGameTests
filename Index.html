@@ -37,13 +37,7 @@ This test has the scens pacing, choices and visualization in focus. Not customiz
 
 So which event line do you wanna play through?
 [[Masculine | Masc-EventStart]]
-[[Feminine|Fem-EventStart]]</tw-passagedata><tw-passagedata pid="3" name="FEM_TENDRIL_TROUBLE" tags="" position="700,600" size="100,100">How are you as you enter?
-
-[[Sated and Clothed|FEM-TENDRIL-CS]]
-[[Sated and Naked|FEM-TENDRIL-NS]]
-[[Turned on and Clothed|FEM-TENDRIL-HC]]
-[[Lustful and Clothed|FEM-TENDRIL-LC]]
-[[Lustful and Naked|FEM-TENDRIL-LN]]</tw-passagedata><tw-passagedata pid="4" name="PurityPage" tags="" position="600,150" size="100,100">This game has a purity meter. You can still be a virgin and have low purity. That just means you been on the internet too much and watched too much porn. Akin to what you are about to do now! 
+[[Feminine|Fem-EventStart]]</tw-passagedata><tw-passagedata pid="3" name="PurityPage" tags="" position="600,150" size="100,100">This game has a purity meter. You can still be a virgin and have low purity. That just means you been on the internet too much and watched too much porn. Akin to what you are about to do now! 
 
 A low purity character will tend to enjoy just jump straight into things. They will enjoy to get dicked and fucked (As this is target towards submission for now). Fully in the end game there will be skills and such but it is assumed here that if your purity is low that impurity stems from experience.
 
@@ -57,18 +51,19 @@ So tell me do you have a
 or
 
 [[Low Purity|START-LOW-PURITY]]
-</tw-passagedata><tw-passagedata pid="5" name="START-HIGH-PURITY" tags="" position="750,275" size="100,100">[set: $purity to 1]
+</tw-passagedata><tw-passagedata pid="4" name="START-HIGH-PURITY" tags="" position="750,275" size="100,100">[set: $purity to 1]
 
 Your purity is set to high.
-[[Next|Gender Stuff]] </tw-passagedata><tw-passagedata pid="6" name="START-LOW-PURITY" tags="" position="450,275" size="100,100">[set: $purity to 0]
+[[Next|Gender Stuff]] </tw-passagedata><tw-passagedata pid="5" name="START-LOW-PURITY" tags="" position="450,275" size="100,100">[set: $purity to 0]
 
 Your purity is set to low.
-[[Next|Gender Stuff]] </tw-passagedata><tw-passagedata pid="7" name=" Masc-EventStart" tags="" position="500,400" size="100,100"></tw-passagedata><tw-passagedata pid="8" name="Fem-EventStart" tags="" position="700,400" size="100,100">Select which Event you want to view!
+[[Next|Gender Stuff]] </tw-passagedata><tw-passagedata pid="6" name=" Masc-EventStart" tags="" position="500,400" size="100,100">Not done yet (:
+[[Back|Gender Stuff]]</tw-passagedata><tw-passagedata pid="7" name="Fem-EventStart" tags="" position="700,400" size="100,100">Select which Event you want to view!
 
-[[Tendril Trouble|FEM_TENDRIL_TROUBLE]]</tw-passagedata><tw-passagedata pid="9" name="FEM-TENDRIL-CS" tags="" position="900,500" size="100,100">Before you is a writhing mess of tendrils. They slither about on the ground floor. The air is thick with a radiance of musk, heat and passion. The dozens of tendrils doesn&#39;t seem to notice you. Your body well guarded. Your scent not giving anything away. You are safe.
+[[Tendril Trouble|FEM-TENDRIL-TROUBLE]]</tw-passagedata><tw-passagedata pid="8" name="FEM-TENDRIL-CS" tags="" position="875,525" size="100,100">Before you is a writhing mess of tendrils. They slither about on the ground floor. The air is thick with a radiance of musk, heat and passion. The dozens of tendrils doesn&#39;t seem to notice you. Your body well guarded. Your scent not giving anything away. You are safe.
 
 [[Careful Walk through|FEM-TENDRIL-ROLL-CHOICE]]
-[[Strip and jump in!|FEM-TENDRIL-JUMP]]</tw-passagedata><tw-passagedata pid="10" name="FEM-TENDRIL-NS" tags="" position="1025,500" size="100,100">(set: $purity to 1)
+[[Strip and jump in!|FEM-TENDRIL-JUMP]]</tw-passagedata><tw-passagedata pid="9" name="FEM-TENDRIL-NS" tags="" position="1000,525" size="100,100">(set: $purity to 1)
 
 (if: $purity is 1)[Embarrassed of your currently clothing situration you find yourself before the mass of tendrils. You stay there trying to think of how to pass. However, the smell of a naked female was too much for the tendrils to resist. Sensing an intruder they jump into action.
 
@@ -76,21 +71,21 @@ Your purity is set to low.
 (else:)[You know those tendrils can&#39;t resist when a naked body is nearby. For once your unparelled whore ability has granted you more than a salt load in your ever willing throat. It granted you time to react. However, your heart is pounding. Your body feels hot. You can almost feel them going into you. What do you do?
 
 [[Offer myself|FEM-TENDRIL-GENTLE-MAIN]]
-[[Try walking through|FEM-TENDRIL-ROUGH-MAIN]]]</tw-passagedata><tw-passagedata pid="11" name="FEM-TENDRIL-HC" tags="" position="1150,500" size="100,100">Ah, lust the wonders of the body. It sends out signals that you&#39;re ready. That your body wants it even if your mind isn&#39;t there. (if: $purity is 0)[But you do want it. You crave it and think about it constantly. Thinking about licking pussy or throbbing cock. You are a whore and you need this kind of thing.] Those signals are easily picked up to beasts of lust. Just like the tendrils before you.
+[[Try walking through|FEM-TENDRIL-ROUGH-MAIN]]]</tw-passagedata><tw-passagedata pid="10" name="FEM-TENDRIL-HC" tags="" position="1125,525" size="100,100">Ah, lust the wonders of the body. It sends out signals that you&#39;re ready. That your body wants it even if your mind isn&#39;t there. (if: $purity is 0)[But you do want it. You crave it and think about it constantly. Thinking about licking pussy or throbbing cock. You are a whore and you need this kind of thing.] Those signals are easily picked up to beasts of lust. Just like the tendrils before you.
 
 However you still have a chance.
 (link: &quot;Hold your breath. Sneak over&quot;)[(set: $disadvantage to 1)(goto: &quot;FEM-TENDRIL-ROLL-CHOICE&quot;)]
 [[Offer yourself you know you want it|FEM-TENDRIL-GENTLE-MAIN]]
-</tw-passagedata><tw-passagedata pid="12" name="FEM-TENDRIL-LC" tags="" position="1275,500" size="100,100">Wasting no time the tendrils are moving towards you. They smell your lust. Your wetness and your eagerness. They smell how much you crave them. (if: $purity is 1)[You dont want them. You dont want these filthy things doing anything to you however... You feel motionless. Your horniness and lust is like a filter for any sort of reason or thought. Helpless you stand there in pure shock.] They grab hold of your clothes and with one swell swoop. Rips them off!
+</tw-passagedata><tw-passagedata pid="11" name="FEM-TENDRIL-LC" tags="" position="1250,525" size="100,100">Wasting no time the tendrils are moving towards you. They smell your lust. Your wetness and your eagerness. They smell how much you crave them. (if: $purity is 1)[You dont want them. You dont want these filthy things doing anything to you however... You feel motionless. Your horniness and lust is like a filter for any sort of reason or thought. Helpless you stand there in pure shock.] They grab hold of your clothes and with one swell swoop. Rips them off!
 
 [[Next|FEM-TENDRIL-LN]]
-</tw-passagedata><tw-passagedata pid="13" name="FEM-TENDRIL-LN" tags="" position="1400,500" size="100,100">Wasting no time the writhing mass starts to grab you and with a thud you are on the ground. 
+</tw-passagedata><tw-passagedata pid="12" name="FEM-TENDRIL-LN" tags="" position="1375,525" size="100,100">Wasting no time the writhing mass starts to grab you and with a thud you are on the ground. Tendrils comes crawling up with great force. No care. No mercy. Just pure feral carnal instict. They seek your warmth. Seek the horniness that they smell. The scent of a willing body.
 
-[[Next|FEM-TENDRIL-ROUGH-MAIN]]</tw-passagedata><tw-passagedata pid="14" name="FEM-TENDRIL-JUMP" tags="" position="900,750" size="100,100">Jumping straight into the mass. Not many would do this. However, as stupid and brainless as people tend to call tentacles they weren&#39;t without their own little gifts. As they see your offering. They slowly slither over to you. Curious and drawn to the smell of a body to breed and mate with and thus as your arms are covered with their soft wet skin. As you and the mass becomes one.
+[[Next|FEM-TENDRIL-ROUGH-MAIN]]</tw-passagedata><tw-passagedata pid="13" name="FEM-TENDRIL-JUMP" tags="" position="875,650" size="100,100">Jumping straight into the mass. Not many would do this. However, as stupid and brainless as people tend to call tentacles they weren&#39;t without their own little gifts. As they see your offering. They slowly slither over to you. Curious and drawn to the smell of a body to breed and mate with and thus as your arms are covered with their soft wet skin. As you and the mass becomes one.
 
 Your legs spread. Welcoming them in. Welcoming their desires. You thought this was gonna be wild but as one slitheres up your face. It wiggles against your cheek. Is it comforting me? The ones around your thighs are caressing your skin.
 
-[[Next|FEM-TENDRIL-GENTLE-MAIN]]</tw-passagedata><tw-passagedata pid="15" name="FEM-TENDRIL-GENTLE-MAIN" tags="" position="900,875" size="100,100">One tendril starts working againast your folds. Teasing. Rubbing. Grinding. It looks almost eager there, you cant help but to twitch a bit. You just offered yourself up so easily. You zone out for a bit. Your minds racing with what is about to start. 
+[[Next|FEM-TENDRIL-GENTLE-MAIN]]</tw-passagedata><tw-passagedata pid="14" name="FEM-TENDRIL-GENTLE-MAIN" tags="" position="875,775" size="100,100">One tendril starts working againast your folds. Teasing. Rubbing. Grinding. It looks almost eager there, you cant help but to twitch a bit. You just offered yourself up so easily. You zone out for a bit. Your minds racing with what is about to start. 
 (if: $purity is 1)
 [You gave yourself up. Really what were you thinking. You aren&#39;t some kind of whore. You saved yourself. Did it really boil up this much that you decided jumping in was best option?]
 (else:)
@@ -110,18 +105,50 @@ You lie there for a few minutes, maybe hours? Its hard to say in this cozy littl
 
 The tendrils retreat from your hole and from your body. Now leaking there seed you lay there twitching in pure afterglow. You pant a few last times before getting back up on shakey knees. As you get up you do a stretch as cum leaks down your body. The tendrils slither back to mindless almost docile state. Your cum now added to the heavy musky air.
 
-[[Next|FEM-TENDRIL-EXIT]]</tw-passagedata><tw-passagedata pid="16" name="FEM-TENDRIL-ROLL-CHOICE" tags="" position="1000,750" size="100,100">In here it would be rolled based on your skills. For now. Choose your own outcome.
+[[Next|FEM-TENDRIL-EXIT]]</tw-passagedata><tw-passagedata pid="15" name="FEM-TENDRIL-ROLL-CHOICE" tags="" position="975,650" size="100,100">In here it would be rolled based on your skills. For now. Choose your own outcome.
 
 (If: $disadvantage is 1)+(color:red)[This roll has disadvantage]
 (if: $disadvantage is 1)[(set: $disadvantage to 0)]
 
 [[Success|FEM-TENDRIL-EXIT]]
-[[Fail|FEM-TENDRIL-INTRUDER]]</tw-passagedata><tw-passagedata pid="17" name="FEM-TENDRIL-EXIT" tags="" position="900,1000" size="100,100">You walk over the docile tendrils. They seem to mind their own business. You continue your adventure
+[[Fail|FEM-TENDRIL-INTRUDER]]</tw-passagedata><tw-passagedata pid="16" name="FEM-TENDRIL-EXIT" tags="" position="875,900" size="100,100">You walk over the docile tendrils. They seem to mind their own business. You continue your adventure
 
-[[Next|Fem-EventStart]]</tw-passagedata><tw-passagedata pid="18" name="FEM-TENDRIL-INTRUDER" tags="" position="1150,750" size="100,100">Sensing an intruder the tendrils sprung into action. Within no time you&#39;re on the ground. Tendrils over your body which pins you down. Your legs are forced open. You are stripped for whatever may be left on your body. One tendril comes up to your face it gets eerily close to you and if it had eyes it would be staring at you. You can feel the heat coming of it. You feel like you need to answer this thing but words are no use. What do you do?
+[[Next|Fem-EventStart]]</tw-passagedata><tw-passagedata pid="17" name="FEM-TENDRIL-INTRUDER" tags="" position="1125,650" size="100,100">Sensing an intruder the tendrils sprung into action. Within no time you&#39;re on the ground. Tendrils over your body which pins you down. Your legs are forced open. You are stripped for whatever may be left on your body. One tendril comes up to your face it gets eerily close to you and if it had eyes it would be staring at you. You can feel the heat coming of it. You feel like you need to answer this thing but words are no use. What do you do?
 
 [[Plead for Mercy|FEM-TENDRIL-GENTLE-MAIN]]
-[[BITE THE TENDRIL!|FEM-TENDRIL-ROUGH-MAIN]]</tw-passagedata><tw-passagedata pid="19" name="FEM-TENDRIL-ROUGH-MAIN" tags="" position="1275,875" size="100,100"></tw-passagedata></tw-storydata>
+[[BITE THE TENDRIL!|FEM-TENDRIL-ROUGH-MAIN]]</tw-passagedata><tw-passagedata pid="18" name="FEM-TENDRIL-ROUGH-MAIN" tags="" position="1250,775" size="100,100">Without giving you pause or thought a tendril is slammed inside of your mouth. (if: $purity is 1))[It tastes awful. Slimey and salty. Wriggling weird. You feel uncomfrotable] It starts pushing further down. More and more. Starts bulging out your throat with no effort. Even if you werent trained their natural coating makes it so easy to slide in even in a novice.
+
+Your legs are spread open. No remorse as a tendril starts grinding against you. You feel how your body starts getting wetter from the teasing. Your honey pot aching. (if: $purity is 1)[You dont want this you feel its teasing doing something your mind. You dont like.] And just like that. It shoves itself in. Truely you are in the hand of a beast. Of an animalistic determinated to breed you. It&#39;s thrust rapid but the waving motion. Fuck, how it grinds against your insides. How it teases and uses you. Its curvature hitting all the different spots. Like a homing missle it knows where to shove itself against to force orgasm after orgasm out of you. You quiver. Taking the pounding for there was nothing else you could do. Both tentacles in you so eager to breed every single inch of your mouth and body.
+
+Finally they cum. Their scorching hot cum going into your body. Repainting your throat and walls. (if: $purity is 1)[It&#39;s disgusting. Gross. How it drips down your thigh. Past your cheeks. Fucking beast. The stench. The smell. The satliness now over taking all your tastebuds. The irration in your throat. You wanna spit it out. All of you tells you to but its hard when your body is weak. Powerless from being forced to orgasm. Powerless whilst at the mercy of these tendrils. You hope this is the end... However it seems the worst just about to begin.](else:)[FUCK YES. This is your heaven isn&#39;t it. Feeling your need and their eagerness to fill you. You did feel weak and you loved it. Loved how you squirted and came and humiliated your self by being the tendril cluster&#39;s breeding bitch. Want nothing more than to keep this going on... And it seems like yo uwould get your wish.] The tendrils withrdraw from your hole (if: $purity is 0)[, your face follow you need more cock. Need more beating. You want more. You need it but your head gets pushed right back down as] without any seconds to pause two tendrils now forced into your mouth. Frotting against eachother as they so eagerly face fuck your pretty mouth; The tendrils in your pussy withdraws too and the cum starts leaking out but is quickly plugged back up by a bigger tendril.
+
+A moment of pain sends through you (if: $purity is 0)[and it makes you shiver and jolt leaking more. Fucking subservent aren&#39;t you loving to feel all needy. The pain only makes all of this better. Making it feel real ]you quiver and jolt. It&#39;s a lot. However this is far from all as the cum covered tendrils now covered in your pussy juices rams itself into your ass. Now filled with tendrils your body gives in. (if: $purity is 1)[You fight with all you have but almost as if your brain and body is disconnected you feel limb. Feel your body give in...] As they realize your submission they grab your legs up to your stomach. Starting to fuck you more and more. Your concious is fading... Last you feeling before you drift is a hot warm cum bath inside. Outside. Covered. Musky. Your honey pot leaking nectar like a bitch in heat... And the last orgasm as more tendrils stuff your holes taking turn of your defeated body... You pass out. A slave for the tendrils in heat.
+
+[[Next|FEM-TENDRIL-ROUGH-WAKING]]
+</tw-passagedata><tw-passagedata pid="19" name="FEM-TENDRIL-ROUGH-WAKING" tags="" position="1250,900" size="100,100">You&#39;re lying down, face into the ground. You feel your used body twitch. Feel it quiver and shake from a cocktail of excitement, exhaustion and estacy. You lay there a few minutes unable to move. Unable to think. The tendrils are now back to beign docile. Sleepy as they used your body as a breeding ground. You feel their seed drip off your body. You feel heavier than wearing clothes. You been marked. Covered and throughly used.
+
+You can&#39;t help but enjoy. (if: $purity is 1)[You want to deny it. You want to shake your head and say this isn&#39;t you... That they put a spell on you. However, somehow... It all felt so right. Your pussy and ass leaking with cum... Albeit it feels disgusting. Something in you is sated. Sated but broken. Sated but destroyed - obliterated.](else:)[You love this. Love this rush of feeling. This was a whole new deal however. Nothing like those people you tend to serve. You were gangbanged. Used and abused in your sleep. Unconcious. Nothing but a mere toy but thats why you ended up here wasn&#39;t it. It was what you were hoping for. Wasn&#39;t it?]
+
+You go up on shakey legs. Panting and huffing. Ever fiber in your body turned to dust as you were used. Walking a little funny you start making your way to the exit... Hoping this was the end of it. (if: $purity is 0)[You stop up. Middle of the road. A thought occurs... They loved you. They used your holes so throughly... That can only mean they liked you right? Your body quiver. You feel your control and reason falter... You gulp. Theres a choice to be made...
+
+[[Retire|FEM-TENDRIL-END]]
+[[Next|FEM-TENDRIL-EXIT]]]
+(else:)[
+[[Next|FEM-TENDRIL-EXIT]]]</tw-passagedata><tw-passagedata pid="20" name="FEM-TENDRIL-TROUBLE" tags="" position="700,525" size="100,100">How are you as you enter?
+
+[[Sated and Clothed|FEM-TENDRIL-CS]]
+[[Sated and Naked|FEM-TENDRIL-NS]]
+[[Turned on and Clothed|FEM-TENDRIL-HC]]
+[[Lustful and Clothed|FEM-TENDRIL-LC]]
+[[Lustful and Naked|FEM-TENDRIL-LN]]</tw-passagedata><tw-passagedata pid="21" name="FEM-TENDRIL-END" tags="" position="1250,1025" size="100,100">You cant anymore. Theres nothing left that could ever refill that joy you felt. The tendrils that fucked you like you were nothing. You have accepted your place. A toy. A mere fucking toy for a beast that will never know your hobbies. Your interests. Your personality or traits. Nothing. No affection. Nothing. Yet here you are. Laying down and cuddling them like they were your partner. They might aswell be. For you are now a brood mother.
+
+A constant wave of tentacle cum fills your belly every night. Every night is different. Sometimes gentle. Somethings rough. Always filling. Your holes getting looser. More cocks can fill you thats good... Thats more cum... More pleasing your partner...
+
+Your brain has gone. Drunk and addicted to tentacle cum. They carry their new thorpy away to their lair. Soon covered in tentacles. Engulfed. Covered. Filled. Nowhere to be seen. Nowhere to be heard. No nothing. You are lost to time and soon... But dont worry. Due to your slutty selfishness you aren&#39;t going to be alone. With all the babies you bring. With all the tentacles being birthed by your ever willing body... The villages nearby are going to have trouble to keep up... Soon you&#39;re surrounded by victims of tentacles. Eyes covered. Stuffed and filled until someone saves you...
+
+But we both know you dont want to be saved, cock and cum is all you ever wanted and all you ever will deserve... 
+
+SLUT...</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
